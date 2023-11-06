@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.container{
+    
+    background-image: url(pexels-tom-swinnen-2249964.jpg);
+    /* background: linear-gradient( rgba(50,58,69,0.55),rgba(50,58,69,0.74)),url("pexels-tom-swinnen-2249964.jpg"); */
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.main-content{
+position: absolute;
+top: 150px;
+left: 100px;
+}
+.main-content h1{
+    color: #fff;
+    font-size: 60px;
+}
+.box{
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 243, 73);
+    margin-top: 50px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#date{
+    width: 250px;
+    outline: none;
+    border: none;
+    padding: 9px 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#button{
+    padding: 9px 15px;
+    border-radius: 9px;
+background-color: rgb(92, 240, 92);
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#button:hover{
+    background-color: green;
+}
+
+#show{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 25px;
+}
+#show span{
+    color: green;
+}
